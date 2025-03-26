@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Daniel Zan Baltazar | Web Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/Main.jpg" alt="Daniel Zan Baltazar Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center theme-switch-container">
+                        <span class="switch-icon"><i class="fas fa-sun"></i></span>
+                        <label class="theme-switch">
+                            <input type="checkbox" id="theme-toggle">
+                            <span class="slider"></span>
+                        </label>
+                        <span class="switch-icon ms-1"><i class="fas fa-moon"></i></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 hero-content">
+                    <h1>Daniel Zan Baltazar</h1>
+                    <p class="lead">Web Developer & Full-Stack Developer</p>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Naic, Cavite</p>
+                        <p><i class="fas fa-phone"></i> 0998-937-1509</p>
+                        <p><i class="fas fa-envelope"></i> danielzanbaltazar.forwork@gmail.com</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/zancy2222" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.facebook.com/ZanWebDev/" target="_blank"><i
+                                class="fab fa-facebook"></i></a>
+                        <a href="https://www.tiktok.com/@coding_with_danielzan" target="_blank"><i
+                                class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <div style="
+                    background-color: var(--card-bg); 
+                    border-radius: 50%; 
+                    width: 300px; 
+                    height: 300px; 
+                    margin: 0 auto; 
+                    overflow: hidden; 
+                    display: flex; 
+                    align-items: center; 
+                    justify-content: center;
+                    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+                    transform: perspective(1000px) rotateY(-10deg);
+                    transition: all 0.5s ease;">
+                        <img src="assets/img/Main.jpg" alt="Daniel Zan Baltazar" style="
+                        width: 100%; 
+                        height: 100%; 
+                        object-fit: cover;
+                        filter: grayscale(20%) contrast(110%);
+                        transition: all 0.5s ease;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="skill-card">
+                        <i class="fas fa-code"></i>
+                        <h4>Programming Languages</h4>
+                        <p>Python, Java, JavaScript, C, C++, PHP, C#</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill-card">
+                        <i class="fas fa-database"></i>
+                        <h4>Databases</h4>
+                        <p>MySQL, MongoDB, SQL Server, Cloud SQL</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill-card">
+                        <i class="fas fa-layer-group"></i>
+                        <h4>Frameworks</h4>
+                        <p>Node.js, Keras, TensorFlow, Bootstrap</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill-card">
+                        <i class="fas fa-puzzle-piece"></i>
+                        <h4>Libraries</h4>
+                        <p>NumPy, Pandas, OpenCV, Composer, PHP Mailer</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill-card">
+                        <i class="fas fa-tools"></i>
+                        <h4>Tools & Technologies</h4>
+                        <p>Git, Visual Studio, Visual Studio Code, github</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill-card">
+                        <i class="fas fa-laptop-code"></i>
+                        <h4>Web Development</h4>
+                        <p>MERN STACK, Lavavel, Django, ASP.NET</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section" id="projects">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2 class="section-title">Projects</h2>
+                <a href="https://github.com/zancy2222" target="_blank" class="view-all-btn">
+                    View All Projects <i class="fas fa-arrow-right ms-2"></i>
+                </a>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="assets/img_project/ligtas.png" alt="Ligtas Lungsod">
+                        </div>
+                        <div class="project-content">
+                            <h4>Ligtas Lungsod</h4>
+                            <p>
+                                A comprehensive disaster management system for the Municipality of Naic, designed to
+                                save lives through timely alerts, coordination, and preparedness.
+                            </p>
+                            <ul class="features-list">
+                                <li><i class="fas fa-bell"></i> <strong>Real-time Alerts:</strong> Receive critical
+                                    notifications and alerts about potential disasters and emergencies in your area.
+                                </li>
+                                <li><i class="fas fa-map-marked-alt"></i> <strong>Interactive Maps:</strong> Navigate
+                                    through safe zones, evacuation routes, and emergency shelters with GIS-powered maps.
+                                </li>
+                                <li><i class="fas fa-graduation-cap"></i> <strong>Training Portal:</strong> Access
+                                    educational videos and resources to better prepare for various disaster scenarios.
+                                </li>
+                                <li><i class="fas fa-wifi-slash"></i> <strong>Offline Functionality:</strong> Access
+                                    critical information even without internet connectivity during power outages.</li>
+                                <li><i class="fas fa-mobile-alt"></i> <strong>Cross-platform:</strong> Use the
+                                    application on any device with a responsive design that adapts to all screen sizes.
+                                </li>
+                            </ul>
+                            <div class="project-tags">
+                                <span>GIS</span>
+                                <span>Disaster Management</span>
+                                <span>PHP</span>
+                                <span>Bootstrap</span>
+                            </div>
+                            <a href="https://ligtaslungsod.netlify.app/" target="_blank" class="view-demo-btn mt-3">
+                                <i class="fas fa-eye me-1"></i> View Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 mb-4">
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="assets/img_project/tpn.png" alt="The Platform News">
+                        </div>
+                        <div class="project-content">
+                            <h4>The Platform News</h4>
+                            <p>
+                                A dynamic and responsive media platform for delivering real-time news, in-depth
+                                articles, and multimedia content.
+                            </p>
+                            <ul class="features-list">
+                                <li><i class="fas fa-newspaper"></i> <strong>Breaking News:</strong> Stay updated with
+                                    the latest headlines.</li>
+                                <li><i class="fas fa-tv"></i> <strong>Live Reports:</strong> Watch live coverage of
+                                    major events.</li>
+                                <li><i class="fas fa-pen-nib"></i> <strong>Editorial Insights:</strong> Read expert
+                                    opinions and investigative journalism.</li>
+                                <li><i class="fas fa-mobile-alt"></i> <strong>Fully Responsive:</strong> Optimized for
+                                    all devices.</li>
+                            </ul>
+                            <div class="project-tags">
+                                <span>Bootstrap 5</span>
+                                <span>JavaScript</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                            </div>
+                            <a href="https://theplatformnews.com/" target="_blank" class="view-demo-btn mt-3">
+                                <i class="fas fa-eye me-1"></i> View Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 mb-4">
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="assets/img_project/es.png" alt="U.A.E.A.S.S System">
+                        </div>
+                        <div class="project-content">
+                            <h4>Unified Admission Enrollment and Academic Support System</h4>
+                            <p>
+                                A comprehensive platform for seamless student enrollment, learning module management,
+                                automated scheduling, and secure academic administration.
+                            </p>
+                            <ul class="features-list">
+                                <li><i class="fas fa-user-plus"></i> <strong>Student Registration:</strong> Quick and
+                                    easy admission process.</li>
+                                <li><i class="fas fa-book"></i> <strong>Learning Modules:</strong> Access course
+                                    materials and assignments.</li>
+                                <li><i class="fas fa-users"></i> <strong>Employee & Branch Management:</strong> Organize
+                                    staff and multiple locations.</li>
+                                <li><i class="fas fa-calendar-alt"></i> <strong>Automated Scheduling:</strong> Efficient
+                                    subject and class assignments.</li>
+                                <li><i class="fas fa-lock"></i> <strong>Strong Security:</strong> Encrypted data storage
+                                    and role-based access control.</li>
+                            </ul>
+                            <div class="project-tags">
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>Bootstrap 5</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <a href="confi.html" target="_blank" class="view-demo-btn mt-3">
+                                <i class="fas fa-eye me-1"></i> View Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="assets/img_project/church.png" alt="Church Management System">
+                        </div>
+                        <div class="project-content">
+                            <h4>Church Management System</h4>
+                            <p>
+                                A Laravel-powered platform for booking sacraments, viewing live streams, and staying
+                                updated on church events.
+                            </p>
+                            <ul class="features-list">
+                                <li><i class="fas fa-calendar-alt"></i> <strong>Online Booking:</strong> Schedule
+                                    Baptisms, Weddings, and other sacraments.</li>
+                                <li><i class="fas fa-video"></i> <strong>Live Streaming:</strong> Watch sermons and
+                                    church services in real-time.</li>
+                                <li><i class="fas fa-calendar-check"></i> <strong>Event Management:</strong> View
+                                    upcoming church activities and special gatherings.</li>
+                                <li><i class="fas fa-users"></i> <strong>Community Engagement:</strong> Connect with
+                                    fellow members through announcements and forums.</li>
+                            </ul>
+                            <div class="project-tags">
+                                <span>Laravel</span>
+                                <span>PHP</span>
+                                <span>Bootstrap 5</span>
+                                <span>MySQL</span>
+                            </div>
+                            <a href="confi.html" target="_blank" class="view-demo-btn mt-3">
+                                <i class="fas fa-eye me-1"></i> View Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="assets/img_project/ges.png" alt="GES IMPORT AND EXPORT CORP.">
+                        </div>
+                        <div class="project-content">
+                            <h4>GES IMPORT AND EXPORT CORP.</h4>
+                            <p>
+                                A modern and responsive static website for GES IMPORT AND EXPORT CORP., providing global
+                                trade solutions with efficiency and reliability.
+                            </p>
+                            <ul class="features-list">
+                                <li><i class="fas fa-globe"></i> <strong>Global Trade:</strong> Seamlessly manage import
+                                    and export operations worldwide.</li>
+                                <li><i class="fas fa-truck"></i> <strong>Logistics Solutions:</strong> Integrated
+                                    shipping and cargo tracking for businesses.</li>
+                                <li><i class="fas fa-handshake"></i> <strong>Reliable Partnerships:</strong> Connect
+                                    with trusted suppliers and distributors.</li>
+                                <li><i class="fas fa-mobile-alt"></i> <strong>Responsive Design:</strong> Optimized for
+                                    all devices, from desktops to mobile phones.</li>
+                            </ul>
+                            <div class="project-tags">
+                                <span>Bootstrap 5</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <a href="https://gesimportandexportcorp.netlify.app/" target="_blank"
+                                class="view-demo-btn mt-3">
+                                <i class="fas fa-eye me-1"></i> View Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="assets/img_project/dev.png" alt="Gamified Task Management System">
+                        </div>
+                        <div class="project-content">
+                            <h4>Gamified Task Management System</h4>
+                            <p>
+                                A web-based platform integrating Machine Learning and gamification. Users complete
+                                tasks, submit results, and climb leaderboards.
+                            </p>
+                            <ul class="features-list">
+                                <li><i class="fas fa-tasks"></i> <strong>Task Submission:</strong> Users submit tasks &
+                                    receive AI-generated feedback.</li>
+                                <li><i class="fas fa-star"></i> <strong>Ranking System:</strong> Earn points based on
+                                    task completion quality.</li>
+                                <li><i class="fas fa-trophy"></i> <strong>Leaderboard:</strong> Compete with others for
+                                    top rankings.</li>
+                                <li><i class="fas fa-brain"></i> <strong>Machine Learning Integration:</strong>
+                                    AI-powered task evaluation & scoring.</li>
+                            </ul>
+                            <div class="project-tags">
+                                <span>PHP</span>
+                                <span>Machine Learning</span>
+                                <span>Bootstrap 5</span>
+                                <span>MySQL</span>
+                            </div>
+                            <a href="confi.html" target="_blank" class="view-demo-btn mt-3">
+                                <i class="fas fa-eye me-1"></i> View Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- <div class="col-md-4 mb-4">
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="assets/img/WIN_20241130_19_41_43_Pro.jpg" alt="Weather Forecast App">
+                        </div>
+                        <div class="project-content">
+                            <h4>Weather Forecast App</h4>
+                            <p>Real-time weather forecasting with geolocation and API integration.</p>
+                            <div class="project-tags">
+                                <span>React</span>
+                                <span>API</span>
+                                <span>Bootstrap</span>
+                            </div>
+                            <a href="#" class="view-demo-btn mt-3">
+                                <i class="fas fa-eye me-1"></i> View Demo
+                            </a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <section class="work-experiences container">
+        <div class="row">
+
+            <div class="col-12">
+                <h2 class="section-title">Work Experience</h2>
+
+                <!-- Zion Experience -->
+                <div class="work-experience">
+                    <div class="work-experience-header">
+                        <img src="assets/img/zionLogo.png" alt="ZION Company Logo" class="company-logo">
+                        <div class="job-details">
+                            <h2 class="job-title">FULL-STACK DEVELOPER</h2>
+                            <p class="company-name">ZION Strategic Solutions.</p>
+                            <p class="job-duration">Sept, 2024 - Present</p>
+                        </div>
+                    </div>
+
+                    <div class="work-experience-details">
+                        <ul>
+                            <li>Provided comprehensive technical support to clients, resolving software and web-related
+                                issues efficiently.</li>
+                            <li>Developed and maintained static websites using HTML, CSS, and JavaScript, ensuring
+                                responsive and user-friendly designs.</li>
+                            <li>Assisted in full-stack development projects, implementing backend and frontend solutions
+                                for client needs.</li>
+                            <li>Collaborated with team members to troubleshoot technical challenges and improve overall
+                                web application performance.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="assets/img/ZionProfile-20250323.pdf" target="_blank"
+                            class="btn btn-outline-primary btn-sm">
+                            <i class="bi bi-file-earmark-pdf me-1"></i>Company Profile
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- MCNAP Experience -->
+                <div class="work-experience">
+                    <div class="work-experience-header">
+                        <img src="assets/img/Mcnap.png" alt="Mcnap" class="company-logo">
+                        <div class="job-details">
+                            <h2 class="job-title">WEB DEVELOPER - Contract Based</h2>
+                            <p class="company-name">Mother and Child Nurses Association of the Philippines (MCNAP)</p>
+                            <p class="job-duration">March, 2025 - March, 2025</p>
+                        </div>
+                    </div>
+                    <div class="work-experience-details">
+                        <ul>
+                            <li>Design and develop a comprehensive membership management system for the Mother and Child
+                                Nurses Association of the Philippines (MCNAP), featuring:
+                                - Dynamic membership status tracking
+                                - Member profile management
+                                - Automated membership renewal processes
+                                - Tiered membership levels (e.g., Student, Regular, Senior, Lifetime)
+                                - Real-time membership status updates</li>
+                            <li>Implement advanced front-end and back-end technologies for robust membership
+                                functionality:
+                                - HTML5 for semantic markup
+                                - CSS3 for responsive and modern design
+                                - Bootstrap 5 for responsive layout and components
+                                - PHP for server-side processing
+                                - AJAX for seamless, dynamic content updates
+                                - MySQL database integration for member records
+                                - Secure authentication and authorization mechanisms</li>
+                            <li>Develop sophisticated membership features with PHP and AJAX:
+                                - Dynamic membership status verification
+                                - Real-time form validation
+                                - Asynchronous profile updates
+                                - Interactive membership application process
+                                - Automated email notifications for membership changes
+                                - Secure payment gateway integration for membership dues</li>
+                            <li>Ensure comprehensive quality assurance and system reliability:
+                                - Cross-browser and cross-device compatibility testing
+                                - Performance optimization for membership database queries
+                                - Robust error handling and user feedback mechanisms
+                                - Security audits for member data protection
+                                - Accessibility compliance for member portal
+                                - Responsive design across all device types</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Zerix Experience -->
+                <div class="work-experience">
+                    <div class="work-experience-header">
+                        <img src="assets/img/Zerix Logo.svg" alt="Zerix Logo" class="company-logo">
+                        <div class="job-details">
+                            <h2 class="job-title">FRONT-END DEVELOPER- Contract Based</h2>
+                            <p class="company-name">Optimum Innovatus Corp. (Zerix Project)</p>
+                            <p class="job-duration">March, 2024 - August, 2024</p>
+                        </div>
+                    </div>
+                    <div class="work-experience-details">
+                        <ul>
+                            <li>Perform front-end development services for the Project, integrating front-end components
+                                with back-end systems and APIs.</li>
+                            <li>Utilize technologies including HTML, CSS, JavaScript, and Bootstrap 5 for comprehensive
+                                front-end development.</li>
+                            <li>Ensure cross-browser compatibility and optimize performance across various devices and
+                                design specifications.</li>
+                            <li>Conduct thorough testing and debugging to maintain high-quality deliverable standards.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!--GES Experience -->
+                <div class="work-experience">
+                    <div class="work-experience-header">
+                        <img src="assets/img/GES_LOGO.png" alt="GES" class="company-logo">
+                        <div class="job-details">
+                            <h2 class="job-title">WEB DEVELOPER - Contract Based</h2>
+                            <p class="company-name">GES IMPORT AND EXPORT CORP.</p>
+                            <p class="job-duration">Nov, 2024 - Nov, 2024</p>
+                        </div>
+                    </div>
+                    <div class="work-experience-details">
+                        <ul>
+                            <li>Develop a fully responsive static website using Bootstrap 5, creating a modern and
+                                interactive user interface with 14 main pages for News and Media Inc. Implement
+                                pixel-perfect design that accurately reflects the brand's visual identity and
+                                communication strategy.</li>
+                            <li>Leverage cutting-edge front-end technologies to craft an exceptional user experience,
+                                including:
+                                - Semantic HTML5 for structured content
+                                - Advanced CSS3 with custom styling and animations
+                                - Vanilla JavaScript for dynamic interactions
+                                - Bootstrap 5 for responsive grid system and pre-built components
+                                - Custom responsive design techniques
+                                - Performance-optimized front-end architecture</li>
+                            <li>Ensure comprehensive cross-platform compatibility and performance optimization:
+                                - Responsive design across desktop, tablet, and mobile devices
+                                - Consistent rendering on major browsers (Chrome, Firefox, Safari, Edge)
+                                - Optimized loading times and minimal page weight
+                                - Implement responsive images and lazy loading
+                                - Mobile-first design approach</li>
+                            <li>Execute rigorous quality assurance and testing protocols:
+                                - Detailed cross-browser and cross-device compatibility testing
+                                - Performance benchmarking and optimization
+                                - Accessibility compliance checks
+                                - Code validation and optimization
+                                - Thorough debugging and error resolution
+                                - Ensure clean, maintainable, and scalable front-end codebase</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+                <!-- PCII Experience -->
+                <div class="work-experience">
+                    <div class="work-experience-header">
+                        <img src="assets/img/PCII_logo.webp" alt="PCII" class="company-logo">
+                        <div class="job-details">
+                            <h2 class="job-title">WEB DEVELOPER - Contract Based</h2>
+                            <p class="company-name">PRO CLIMATE INNOVATIONS INC.</p>
+                            <p class="job-duration">Nov, 2024 - Nov, 2024</p>
+                        </div>
+                    </div>
+                    <div class="work-experience-details">
+                        <ul>
+                            <li>Develop a comprehensive web platform for Pro Climate Innovations Inc. (PCII) that
+                                effectively communicates the company's mission of environmental sustainability,
+                                showcasing eco-friendly products and technologies for land and marine applications:
+                                - Create engaging digital representation of PCII's innovative solutions
+                                - Highlight product categories for land and sea environmental technologies
+                                - Showcase company's commitment to sustainability and green innovation
+                                - Design intuitive navigation reflecting PCII's multi-location presence (Makati, Tarlac,
+                                future Clark Pampanga)</li>
+                            <li>Implement advanced web technologies to support PCII's digital strategy:
+                                - Responsive HTML5 structure for seamless content presentation
+                                - Modern CSS3 with eco-friendly color palette and design aesthetics
+                                - Interactive JavaScript for dynamic product demonstrations
+                                - Bootstrap 5 for responsive and adaptive layout
+                                - Performance-optimized web architecture
+                                - Integration of multimedia content showcasing environmental technologies</li>
+                            <li>Develop a robust, cross-platform web experience that reflects PCII's professional and
+                                innovative brand:
+                                - Mobile-first responsive design
+                                - Consistent functionality across browsers (Chrome, Firefox, Safari, Edge)
+                                - Optimized loading performance
+                                - Accessibility compliance
+                                - SEO-friendly web structure
+                                - Interactive product catalog and technology showcase</li>
+                            <li>Execute comprehensive quality assurance and performance optimization:
+                                - Detailed cross-browser and cross-device compatibility testing
+                                - Performance benchmarking
+                                - User experience (UX) validation
+                                - Accessibility standards compliance
+                                - Security best practices implementation
+                                - Continuous performance monitoring and optimization strategies</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <!-- TPN Experience -->
+                <div class="work-experience">
+                    <div class="work-experience-header">
+                        <img src="assets/img/tpn.jpg" alt="TPN Logo" class="company-logo">
+                        <div class="job-details">
+                            <h2 class="job-title">WORDPRESS DEVELOPER - Contract Based</h2>
+                            <p class="company-name">The Platform News</p>
+                            <p class="job-duration">Dec, 2024 - Dec, 2024</p>
+                        </div>
+                    </div>
+                    <div class="work-experience-details">
+                        <ul>
+                            <li>Develop a comprehensive front-end solution for a News and Media WordPress website,
+                                creating responsive and dynamic interfaces for 14 main pages including Home,
+                                News Categories, Latest News, Editorial, Multimedia, Opinion, International,
+                                Local News, Sports, Technology, Entertainment, Business, Weather, and Contact pages.
+                            </li>
+                            <li>Implement advanced WordPress theme customization using technologies such as:
+                                - HTML5 for semantic markup
+                                - CSS3 with responsive design principles
+                                - JavaScript (ES6+) for interactive elements
+                                - PHP for WordPress template customization
+                                - Bootstrap 5 for responsive grid and component styling
+                                - Custom WordPress blocks and Gutenberg editor integration</li>
+                            <li>Optimize website performance and user experience across multiple devices and browsers,
+                                ensuring seamless navigation for news content, including:
+                                - Mobile-first responsive design
+                                - Adaptive layouts for tablets and desktop
+                                - Cross-browser compatibility (Chrome, Firefox, Safari, Edge)
+                                - Optimized loading times and performance metrics</li>
+                            <li>Develop and implement robust testing strategies, including:
+                                - Comprehensive cross-browser and cross-device testing
+                                - Performance optimization and speed testing
+                                - Accessibility compliance (WCAG guidelines)
+                                - User interface and user experience validation
+                                - Security best practices for WordPress installations</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <!-- Previous Job Experience (Optional) -->
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p id="typing" class="terminal-text"></p>
+                    <div class="footer-icons">
+                        <a href="https://github.com/zancy2222" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/danielzan-baltazar-a47591264/" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="mailto:danielzanbaltazar.forwork@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                    <p class="mt-3">&copy; 2025 Daniel Zan Baltazar. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
